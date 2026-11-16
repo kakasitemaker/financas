@@ -1,9 +1,11 @@
 # Ambiente virtual
 venv/
+env/
 
 # Cache do Python
 __pycache__/
 *.pyc
+*.pyo
 
 # Banco de dados local (SQLite)
 db.sqlite3
@@ -11,7 +13,7 @@ db.sqlite3
 # Cache de ferramentas
 .mypy_cache/
 
-# Variáveis de ambiente
+# Variáveis de ambiente (quando chegarmos no Postgres/Docker)
 .env
 
 # Configurações de editor
@@ -20,3 +22,6 @@ db.sqlite3
 
 # Logs
 *.log
+
+# Dump do banco (tem dados pessoais e senhas)
+dados.json
